@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ble</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sms">智能锁通知信息！</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="wrap_content" android:layout_width="wrap_content"
+ android:orientation="vertical"
+android:id="@+id/dialog"
+>
+<LinearLayout 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+	
+	android:orientation="horizontal"
+    >
+<TextView 
+    android:layout_height="wrap_content"
+   	android:layout_width="wrap_content"
+  	android:id="@+id/tvnum" android:text="手机号：" />
+<EditText android:layout_height="wrap_content"
+  android:layout_width="wrap_content" 
+  android:id="@+id/etnum" 
+  android:minWidth="100dip"
+  android:text="13610173635"
+  android:textColor="#000000"/>
+<Button 
+    android:id="@+id/numbt"
+    android:layout_height="wrap_content"
+   	android:layout_width="wrap_content"
+   	android:text="选择联系人"
+    />
+</LinearLayout>
+<LinearLayout 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"	
+	android:orientation="vertical"
+    >
+<TextView 
+    android:layout_height="wrap_content"
+   	android:layout_width="wrap_content"
+  	android:id="@+id/tvtime"
+    android:text="到期时间(yyyy-MM-dd HH:mm:ss)："
+  	android:textColor="#000000" />
+<EditText android:layout_height="wrap_content"
+  android:layout_width="wrap_content" 
+  android:id="@+id/ettime" 
+  android:minWidth="100dip"
+  android:numeric="integer"
+  android:text="2015-10-07 00:00:00"
+  android:textColor="#000000"/>
+
+</LinearLayout>
+</LinearLayout>
